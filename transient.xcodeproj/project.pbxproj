@@ -16,6 +16,7 @@
 		80B58B9E253043C8006DAE8B /* transientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B58B9D253043C8006DAE8B /* transientUITests.swift */; };
 		80B58BAF253049E2006DAE8B /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B58BAE253049E2006DAE8B /* Number.swift */; };
 		80B58BB4253050D2006DAE8B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B58BB3253050D2006DAE8B /* TableViewController.swift */; };
+		80B58BC025307652006DAE8B /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B58BBE25307652006DAE8B /* Data.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		80B58B9F253043C8006DAE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B58BAE253049E2006DAE8B /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 		80B58BB3253050D2006DAE8B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		80B58BBF25307652006DAE8B /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		80B58B7A253043C6006DAE8B /* transient */ = {
 			isa = PBXGroup;
 			children = (
+				80B58BBE25307652006DAE8B /* Data.xcdatamodeld */,
 				80B58B7B253043C6006DAE8B /* AppDelegate.swift */,
 				80B58B7D253043C6006DAE8B /* SceneDelegate.swift */,
 				80B58B81253043C6006DAE8B /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				80B58BAF253049E2006DAE8B /* Number.swift in Sources */,
 				80B58B7C253043C6006DAE8B /* AppDelegate.swift in Sources */,
+				80B58BC025307652006DAE8B /* Data.xcdatamodeld in Sources */,
 				80B58BB4253050D2006DAE8B /* TableViewController.swift in Sources */,
 				80B58B7E253043C6006DAE8B /* SceneDelegate.swift in Sources */,
 			);
@@ -597,6 +601,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80B58BBE25307652006DAE8B /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80B58BBF25307652006DAE8B /* Data.xcdatamodel */,
+			);
+			currentVersion = 80B58BBF25307652006DAE8B /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 80B58B70253043C6006DAE8B /* Project object */;
 }
