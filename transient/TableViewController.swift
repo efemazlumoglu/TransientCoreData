@@ -87,7 +87,9 @@ class TableViewController: UITableViewController, NSFetchedResultsControllerDele
                 switch editingStyle {
                 case .delete:
                     
-//                    managedObjectContext?.delete((fetchedResultsController?.object(at: indexPath))!)
+                    // managedObjectContext?.delete((fetchedResultsController?.fetchedObjects![indexPath.row])!)
+                    // managedObjectContext?.delete((fetchedResultsController?.object(at: indexPath))!)
+                    
                     do {
                         try managedObjectContext?.save()
                     } catch {
